@@ -2,13 +2,27 @@
 	"name": "fcc-learn-node-with-express",
 	"version": "0.1.0",
 	"dependencies": {
-		"express": "^4.14.0",
 		"body-parser": "^1.15.2",
 		"cookie-parser": "^1.4.3",
+		"express": "^4.14.0",
 		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
 	},
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.16.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-config-prettier": "^7.1.0",
+		"eslint-config-wesbos": "^1.0.1",
+		"eslint-plugin-html": "^6.1.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-prettier": "^3.3.0",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"prettier": "^2.2.1"
 	}
 }
